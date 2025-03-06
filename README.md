@@ -71,8 +71,12 @@ Note: Adjust web_paths in the code based on your personal document sources.
 
 Visit Test_1 or Test_2 to look at their sample_conversations.pdf file. It contains sample conversations.
 
+## License
+This project is under [MIT License](https://github.com/Dipti-24/RAG-CHATBOT-LLM?tab=MIT-1-ov-file#)
+
 
 
 ## Contacts:
 	    for any query  mail me at diptimishra2402@gmail.com
-            
+
+	
