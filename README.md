@@ -47,7 +47,6 @@ The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Genera
 1. Navigate to either the Test1 or Test2 folders.
 2. Run the following command in the cmd: `streamlit run new_main_chatbot.py` to experience the pre-trained chatbots.
 3. Find a `chroma.sqlite3` file in both directories, containing vectordb embeddings for specific articles.
-4. Sample conversations are available in the `sample.pdf`.
 
 ## Training Your Own Chatbot:
 
@@ -67,9 +66,6 @@ The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Genera
 
 Note: Adjust web_paths in the code based on your personal document sources.
 
-## Sample Conversation:
-
-Visit Test_1 or Test_2 to look at their sample_conversations.pdf file. It contains sample conversations.
 
 ## License
 This project is under [MIT License](https://github.com/Dipti-24/RAG-CHATBOT-LLM?tab=MIT-1-ov-file#)
