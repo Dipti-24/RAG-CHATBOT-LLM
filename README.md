@@ -5,6 +5,13 @@
 
 The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Generation) framework, vectordb (Chroma vector database), Embedding (OllamaEmbeddings), and LLM (Language Model) frameworks. The chatbot combines these components to create a conversational agent capable of retrieving information and generating responses in a coherent manner and also has beta level conversational awareness.
 
+## Features
+1. Upload and chat with PDF documents
+2. Retrieve context from web URLs
+3. Choose between Ollama (Mistral) and OpenAI GPT
+4. Stores & loads Chroma VectorDB
+5. Rephrases queries based on chat history (basic context awareness)
+6. Built with Streamlit
 
 ## Explanation of Framework Utilization
 
@@ -21,12 +28,6 @@ The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Genera
    The Ollama LLM (Large Language Model by ollama - Mistral) is implemented using Ollama for rephrasing user questions based on the chat history. This enhances conversational awareness by considering the context of the ongoing conversation.
 
 
-
-
-
-
-
-
 ## Environment Setup and Chatbot Execution Instructions
 
 ### 1. Environment Setup:
@@ -41,13 +42,6 @@ The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Genera
 
  run  "streamlit run new_chatbot.py"
 
-
-## Training Your Own Chatbot:
-
-1. Create a folder with your desired name and place `new_chatbot.py` inside.
-2. Modify the `web_paths` variable within the loader to include the URL of your desired webpage. Save the changes.
-3. Execute the command: `python main_chatbot.py`.
-4. If the Chroma database file doesn't exist, the chatbot will generate and persist a new vectorstore using the specified web documents.
 
 ## General Chatbot Setup:
 
