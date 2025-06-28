@@ -39,11 +39,16 @@ The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Genera
 
 
 ### 2. Running the Chatbot:
+     run  "streamlit run new_chatbot.py"
 
- run  "streamlit run new_chatbot.py"
+#### Using Pre-trained Chatbots:
+1. Navigate to either the Test1 or Test2 folders.
+2. Run the following command in the cmd: `streamlit run new_main_chatbot.py` to experience the pre-trained chatbots.
+3. Find a `chroma.sqlite3` file in both directories, containing vectordb embeddings for specific articles.
+4. Sample conversations are available in the `sample.pdf`.
 
 
-## General Chatbot Setup:
+#### General Chatbot Setup:
 
 1. Clone or download the chatbot code.
 2. Open a terminal in the code directory.
