@@ -6,12 +6,11 @@
 The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Generation) framework, vectordb (Chroma vector database), Embedding (OllamaEmbeddings), and LLM (Language Model) frameworks. The chatbot combines these components to create a conversational agent capable of retrieving information and generating responses in a coherent manner and also has beta level conversational awareness.
 
 ## Features
-1. Upload and chat with PDF documents
-2. Retrieve context from web URLs
-3. Choose between Ollama (Mistral) and OpenAI GPT
-4. Stores & loads Chroma VectorDB
-5. Rephrases queries based on chat history (basic context awareness)
-6. Built with Streamlit
+1. Retrieve context from web URLs
+2. Choose between Ollama (Mistral) and OpenAI GPT
+3. Stores & loads Chroma VectorDB
+4. Rephrases queries based on chat history (basic context awareness)
+5. Built with Streamlit
 
 ## Explanation of Framework Utilization
 
@@ -60,7 +59,8 @@ The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Genera
 Note: Adjust web_paths in the code based on your personal document sources.
       Ollama must be running: ollama run mistral
 
-
+## Future 
+  Upload and chat with PDF documentS
 ## License
 This project is under [MIT License](https://github.com/Dipti-24/RAG-CHATBOT-LLM?tab=MIT-1-ov-file#)
 
