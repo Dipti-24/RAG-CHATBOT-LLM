@@ -41,12 +41,6 @@ The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Genera
 
  run  "streamlit run new_chatbot.py"
 
-## Using Pre-trained Chatbots:
-
-### Test_1 or Test_2 Folders:
-1. Navigate to either the Test1 or Test2 folders.
-2. Run the following command in the cmd: `streamlit run new_main_chatbot.py` to experience the pre-trained chatbots.
-3. Find a `chroma.sqlite3` file in both directories, containing vectordb embeddings for specific articles.
 
 ## Training Your Own Chatbot:
 
@@ -65,6 +59,7 @@ The provided chatbot is designed to leverage the RAG (Retrieval-Augmented Genera
 
 
 Note: Adjust web_paths in the code based on your personal document sources.
+      Ollama must be running: ollama run mistral
 
 
 ## License
